@@ -10,12 +10,12 @@ let package = Package(
 	dependencies: [],
 	targets: [
 		.binaryTarget(
-			name: "RustXcframework",
+			name: "MMRustXcframework",
 			path: "RustXcframework.xcframework"
 		),
 		.target(
 			name: "Minimuxer",
-			dependencies: ["RustXcframework"])
+			dependencies: ["MMRustXcframework"])
 	]
 )
 	
